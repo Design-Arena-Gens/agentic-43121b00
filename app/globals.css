@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #fef7f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #fff7e9 0%, #f7eee1 60%, #f3e3d4 100%);
+}
+
+.page {
+  padding: 2.5rem 1.5rem 3rem;
+  max-width: 720px;
+  text-align: center;
+  color: #4c3b2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 24px;
+  box-shadow: 0 22px 50px rgba(60, 45, 30, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 0 auto 2rem;
+  max-width: 460px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #665547;
+}
+
+.figure {
+  margin: 0;
+}
+
+.dog-svg {
+  width: min(100%, 420px);
+  height: auto;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5),
+    0 18px 30px rgba(51, 39, 29, 0.18);
+}
+
+.caption {
+  margin-top: 1rem;
+  color: #7a6654;
+  font-size: 0.95rem;
+}
